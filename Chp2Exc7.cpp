@@ -16,9 +16,12 @@ Once you have coded this and placed in your main branch in GitHub, create a seco
 using namespace std;
 int main() { 
 
-double riseRate = 1.5;
+double riseRate;
 double year;
   
+cout << "Enter the number of millimeters per year that the ocean level rises: \n";
+cin >> riseRate;
+
 year = riseRate * 5;
 cout << "In 5 years the ocean's level will increase by " << year << " millimeters.\n";
 
@@ -27,7 +30,6 @@ cout << "In 7 years the ocean's level will increase by " << year<< " millimeters
 
 year = riseRate * 13;
 cout << "In 13 years the ocean's level will increase by " << year << " millimeters.\n";
-  
 
   return 0;
 }
